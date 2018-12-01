@@ -38,7 +38,7 @@
     line-height: 1;
     text-align: center;
     cursor: pointer;
-    background-color: #0550DF;
+    background-color: #FFF;
     color: #003309;
     transition: all .3s;
     border-radius: 60px;
@@ -54,7 +54,7 @@
 .bebeqi{
 	text-align: center;
 	font-family: 'Circular-Bold';
-	color: #000;
+	color: #d85478;
 	font-style: bold;
 	font-size: 48px;
 	text-shadow: #00220B 1px 0 10px
@@ -64,4 +64,59 @@
 	font-family: 'CircularStd-Black';
 	color: #000;
 	font-size: 14px;
+}
+
+.banner{
+    max-width: 105%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+}
+.bottombar{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+}
+.teamwork{
+    margin-top: -40%;
+    padding-left: 50%;
+    width: 200%;
+    height: 1%;
+    font-family: "Circular-Bold";
+    font-size: 38px;
+    line-height: 1.26;
+    color: #ffffff;
+}
+.whomade{
+    margin-top: 17%;
+    padding-left: 80%;
+    width: 200%;
+    height: 1%;
+    font-family: "Circular-Book";
+    font-size: 21px;
+    line-height: 1.29;
+    color: #ffffff;
+}
+
+.buttonteam{
+    height: 7%;
+    width: 19%;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 2;
+    transition: background-color 0.25s ease-out,color 0.5s ease-out;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #d85478;
+    color: #fff;
+    transition: all .3s;
+    border-radius: 60px;
+    font-size: 1rem;
+    box-shadow: 0 32px 64px 0 rgba(203, 27, 94, 0.5);
 }
