@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Circular-Black';
+    src: url('fonts/CircularStd-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular-Med';
+    src: url('fonts/CircularStd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular-Bold';
+    src: url('fonts/CircularStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular-Book';
+    src: url('fonts/CircularStd-Book.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@media screen and (min-width:950px){
+
+.button1{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: background-color 0.25s ease-out,color 0.25s ease-out;
+    font-size: 25px;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #0550DF;
+    color: #FB3309;
+    transition: all .3s;
+    border-radius: 60px;
+    padding: 1.25rem;
+    padding-right: 3.0rem;
+    padding-left: 3.0rem;
+    font-size: 1rem;
+    box-shadow: 0 32px 64px 0 rgba(122, 86, 124, 0.5);
+    width: auto;
+    height: auto;
+}
+
+.bebeqi{
+	text-align: center;
+	font-family: 'Circular-Bold';
+	color: #000;
+	font-style: bold;
+	font-size: 48px;
+	text-shadow: #00220B 1px 0 10px
+}
+
+.tabel{
+	font-family: 'CircularStd-Black';
+	color: #000;
+	font-size: 14px;
+}
