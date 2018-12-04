@@ -49,6 +49,7 @@
     box-shadow: 0 32px 64px 0 rgba(122, 86, 124, 0.5);
     width: auto;
     height: auto;
+    font-family: 'Circular-Book';
 }
 
 .bebeqi{
@@ -89,21 +90,21 @@
     font-size: 38px;
     line-height: 1.26;
     color: #ffffff;
+    float: center;
 }
 .whomade{
-    margin-top: 17%;
-    padding-left: 80%;
+    margin-top: 7%;
+    padding-left: 70%;
     width: 200%;
     height: 1%;
     font-family: "Circular-Book";
-    font-size: 21px;
+    font-size: 25px;
     line-height: 1.29;
     color: #ffffff;
+    float: center;
 }
 
 .buttonteam{
-    height: 7%;
-    width: 19%;
     display: inline-block;
     vertical-align: middle;
     -webkit-appearance: none;
@@ -117,6 +118,117 @@
     color: #fff;
     transition: all .3s;
     border-radius: 70px;
-    font-size: 1rem;
+    font-size: 20px;
     box-shadow: 0 32px 64px 0 rgba(203, 27, 94, 0.5);
+    margin-top: 5%;
+    padding: 15px;
+    font-style: bold;
+    float: none;
+}
+
+.quanta {
+	width: 137px;
+	height: 51px;
+	font-family: Circular-Bold;
+	font-size: 40px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.28;
+	letter-spacing: normal;
+	text-align: left;
+	color: #0f0f0f;
+	position: absolute;
+	top: 21px;
+	left: 138px;
+}
+
+.bbq {
+	width: 48px;
+	height: 30px;
+	font-family: Circular-Book;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.25;
+	letter-spacing: normal;
+	text-align: left;
+	color: #0f0f0f;
+	position: absolute;
+	top: 36px;
+	left: 309px;
+}
+
+.biodata {
+	width: 82px;
+	height: 30px;
+	font-family: Circular-Book;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.25;
+	letter-spacing: normal;
+	text-align: left;
+	color: #0f0f0f;
+	position: absolute;
+	top: 36px;
+	left: 386px;
+}
+
+.gallery {
+	width: 78px;
+  	height: 30px;
+  	font-family: Circular-Book;
+  	font-size: 24px;
+  	font-weight: normal;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.25;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: #0f0f0f;
+	position: absolute;
+	top: 36px;
+	left: 495px;
+}
+
+.quanta:hover, .quanta:visited, .quanta:link, .quanta:active{
+	color:#0f0f0f;
+	text-decoration: none;
+}
+
+.bbq:hover, .bbq:visited, .bbq:link, .bbq:active{
+	color:#0f0f0f;
+	text-decoration: none;
+}
+
+.gallery:hover, .gallery:visited, .gallery:link, .gallery:active{
+	color:#0f0f0f;
+	text-decoration: none;
+}
+
+.biodata:hover, .biodata:visited, .biodata:link, .biodata:active{
+	color:#0f0f0f;
+	text-decoration: none;
+}
+
+li {
+    font-family: 'Circular-Book';
+    font-size: 16px;
+}
+
+td {
+    font-family: 'Circular-Book';
+    font-size: 16px;
+}
+
+tr {
+    font-family: 'Circular-Black';
+    font-size: 20px;
+}
+
+th {
+    text-align: center;
 }
